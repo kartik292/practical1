@@ -37,9 +37,9 @@ animal *animal::createanimal(int type){
 }
 
 int main(){
-    animal *dog1=animal::createanimal(1);
+    animal *dog1=animal::createanimal(2);
     dog1->speak();
-    animal *cat1=animal::createanimal(2);
+    animal *cat1=animal::createanimal(3);
     cat1->speak();
     return 0;
 }
